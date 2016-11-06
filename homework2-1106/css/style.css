@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
+
+/*-------------------------整個的設定-------------------------*/
+
+
+/*按鈕的統一字體*/
+
+[class*="btn"] {
+    font-family: "Montserrat";
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
+
+
+/*標題的統一字體*/
+
+h1,
+h3,
+h4,
+h5 {
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+    font-family: "Raleway";
+    font-size: 16px;
+    line-height: 25px;
+}
+
+
+/*section固定上下有padding*/
+
+section {
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/*置中*/
+
+.text-center {
+    text-align: center;
+}
+
+
+/*藍色的icon*/
+
+.web-icon {
+    color: #7e9b9f;
+    font-size: 150px;
+    text-align: center;
+}
+
+
+/*背景淺灰*/
+
+.color-gray {
+    background-color: #efefef;
+}
+
+
+/*背景深灰*/
+
+.color-darkgray {
+    background-color: #c1c1c1;
+}
+
+
+/*-------------------------第一段-------------------------*/
+
+
+/*導覽列*/
+
+.navbar {
+    background-color: #282828;
+    font-family: "Montserrat";
+    margin: 0;
+    border: none;
+    color: white;
+}
+
+
+/*導覽列的連結的顏色*/
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+
+/*導覽列Download按鈕*/
+
+.navbtn-nobackground {
+    background-color: #282828;
+    color: white;
+    border: 1px solid white;
+    letter-spacing: 0px;
+}
+
+
+/*-------------------------第二段-------------------------*/
+
+
+/*大輪轉底圖*/
+
+.header-background {
+    background-image: url(https://mobirise.com/assets3/images/jumbotron-2000x1252-54.jpg);
+}
+
+
+/*大輪轉的卡其按鈕*/
+
+.btn-khaki {
+    background-color: #c0a375;
+    font-size: 15px;
+    border: none;
+    color: white;
+    padding: 12px 35px;
+    margin: 7px;
+}
+
+
+/*大輪轉的透明底按鈕*/
+
+.btn-nobackground {
+    background-color: none;
+    font-size: 15px;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 35px;
+    margin: 7px;
+}
+
+
+/*大輪轉的透明底按鈕*/
+
+#btn-down {
+    background-color: rgba(26, 16, 0, 0.11);
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    color: white;
+    text-align: center;
+}
+
+
+/*大輪轉-背景半透明*/
+
+header {
+    background-color: rgba(0, 0, 0, 0.47);
+    background-size: cover;
+    display: block;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+header h1 {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+header p {
+    font-family: "Lora";
+    font-style: italic;
+    font-size: 23px;
+    font-weight: 550;
+    padding-bottom: 30px;
+}
+
+
+/*-------------------------第三段-------------------------*/
+
+#section3 p {
+    margin: 5px 0px;
+}
+
+#section3 span {
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+
+/*-------------------------第四段-------------------------*/
+
+#section4 img {
+    width: 100%;
+    margin: 0;
+}
+
+#section4 h1 {
+    color: white;
+    margin-bottom: 50px;
+}
+
+#section4 h5 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.49);
+    line-height: 50px;
+    position: relative;
+    top: -10px;
+}
+
+
+/*-------------------------第五段-------------------------*/
+
+#section5 h1 {
+    margin-left: 20px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+#section5 p {
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+#section5 a {
+    margin-left: 15px;
+}
+
+.btn-blue {
+    background-color: #7e9b9f;
+    color: white;
+    font-size: 13px;
+    padding: 12px 35px;
+}
+
+.btn-white {
+    background-color: white;
+    color: #535353;
+    font-size: 13px;
+    padding: 12px 35px;
+}
+
+
+/*-------------------------第六段-------------------------*/
+
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    color: black;
+    border: 2px solid #c0a375;
+    border-radius: 50%;
+    margin: 5px;
+    text-align: center;
+}
+
+#section6 h1 {
+    margin-bottom: 20px;
+}
+
+
+/*-------------------------第七段-------------------------*/
+
+.section7-background {
+    background-image: url(https://mobirise.com/assets3/images/main2-2000x1333-33.jpg);
+    background-attachment: fixed;
+}
+
+#section7 {
+    background-color: rgba(228, 221, 215, 0.67);
+    background-size: cover;
+    text-align: right;
+}
+
+#section7 img {
+    width: 100%;
+}
+
+#section7 a {
+    margin-right: 30px;
+}
+
+#section7 h1 {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#section7 p {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    color: dimgrey;
+}
+
+#section7 span {
+    font-family: "Lora";
+    font-style: italic;
+    font-weight: 800;
+    color: #7e9b9f;
+}
+
+.btn-darkgray {
+    background-color: #535353;
+    color: white;
+    font-size: 13px;
+}
+
+
+/*-------------------------第八段-------------------------*/
+
+#section8 span {
+    color: #7e9b9f;
+}
+
+
+/*-------------------------第九段-------------------------*/
+
+.thumbnail {
+    border: none;
+}
+
+#section9 h4 {
+    margin: 20px 0px;
+}
+
+
+/*-------------------------第十段 人物介紹-------------------------*/
+
+#section10-background {
+    background-image: url(https://mobirise.com/assets3/images/landscape2.jpg);
+    background-attachment: fixed;
+}
+
+#section10 {
+    background-color: rgba(255, 255, 255, 0.85);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#section10 h1 {
+    color: black;
+    margin: 55px 0px;
+}
+
+.expert {
+    background-color: #f4f4f4;
+    padding: 30px 30px 40px 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.expert p {
+    font-family: "Lora";
+    font-style: italic;
+    font-size: 18px;
+    line-height: 30px;
+    color: dimgrey;
+}
+
+#section10 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -80px;
+}
+
+#section10 h4 {
+    margin-top: 50px;
+}
+
+#section10 .row {
+    margin-top: 20px;
+}
+
+#section10 a {
+    font-family: "Lora";
+    font-style: italic;
+    color: #7e9b9f;
+}
+
+
+/*-------------------------第十一段-------------------------*/
+
+.user-say {
+    background-color: #f4f4f4;
+    padding: 30px 30px 40px 30px;
+    text-align: left;
+    margin: 0;
+    font-family: "Lora";
+    font-style: italic;
+    font-size: 18px;
+    line-height: 30px;
+    color: dimgrey;
+}
+
+#section11 h1 {
+    text-align: center;
+    margin: 40px 0px;
+}
+
+#section11 h4 {
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+}
+
+
+/*-------------------------第十二段-------------------------*/
+
+#section12 h1 {
+    text-align: center;
+    margin: 40px 0px;
+    color: black;
+}
+
+#section12 p {
+    color: dimgray;
+    margin-bottom: 40px
+}
+
+#section12 .btn-blue {
+    margin: 5px;
+}
+
+
+/*-------------------------第十三段-------------------------*/
+
+.section13-background {
+    background-image: url(https://mobirise.com/assets3/images/v5-cropped-2000x752-77.jpg);
+    background-attachment: fixed;
+}
+
+#section13 {
+    background-color: rgba(38, 38, 38, 0.9);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#section13 h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-circle2 {
+    width: 50px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border: 2px solid #c0a375;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+
+/*-------------------------第十四段-------------------------*/
+
+#section14 {
+    background-color: #2e2e2e;
+    color: #939393;
+}
+
+#section14 li {
+    color: white;
+    border-bottom: 1px dotted #585858;
+    padding: 10px;
+}
+
+#section14 img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#section14 a {
+    text-decoration: none;
+    color: #c0a375;
+}
+
+#section14 li>a {
+    color: white;
+}
+
+#section14 li {
+    color: #c0a375;
+    list-style: square;
+}
+
+#section14 ul {
+    position: relative;
+    left: -20px;
+}
+
+
+/*-------------------------第十五段 FOOTER-------------------------*/
+
+footer {
+    background-color: #323232;
+    color: #9d9d9d;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+footer a {
+    color: #c0a375;
+    text-decoration: none;
+}
