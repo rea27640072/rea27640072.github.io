@@ -1,0 +1,220 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+* {
+    font-family: "Noto Sans TC";
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    text-align: center;
+}
+
+.navbar-inverse {
+    background-color: rgba(15, 8, 6, 0.76);
+    margin: 0;
+    border: none;
+}
+
+.jumbotron {
+    background-image: url(../images/computer.jpg);
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron h1 {
+    color: rgba(49, 153, 157, 0.92);
+    font-family: "Lobster";
+}
+
+.jumbotron p {
+    color: rgb(70, 27, 19);
+}
+
+.jumbotron span {
+    font-weight: bold;
+    color: rgba(60, 41, 38, 0.69);
+}
+
+.backgroundimage {
+    background-image: url(../images/computer.jpg);
+    background-size: cover;
+}
+
+.homework {
+    margin: 50px 0px;
+}
+
+.homework a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    margin: 20px 0px;
+    color: rgba(74, 74, 74, 0.87);
+    line-height: 70px;
+    border-bottom: 1px dotted #717171;
+}
+
+.homework h5 {
+    text-align: center;
+    margin: 5px 0px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #404040;
+    font-weight: 300;
+}
+
+.homework img {
+    width: 200px;
+}
+
+.thumbnail {
+    border: none;
+    margin: 0;
+}
+
+h2 i {
+    margin-right: 15px;
+}
+
+.me-brown {
+    padding: 30px 0px;
+    background-color: rgba(90, 57, 51, 0.81);
+    margin: 0;
+    color: white;
+}
+
+.me-brown h1 {
+    margin: 20px;
+}
+
+.me-brown p {
+    color: antiquewhite;
+    letter-spacing: 2px;
+}
+
+.me-background {
+    background-image: url(https://unsplash.it/1000?image=866);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.me {
+    background-color: rgba(255, 255, 255, 0.51);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px 0px;
+    padding: 0;
+    background-attachment: fixed;
+    margin: 20px 0px;
+}
+
+.me li {
+    list-style-type: none;
+    line-height: 30px;
+    color: #363636;
+}
+
+.me h3 {
+    margin-top: 0px;
+    color: #44ae9b;
+}
+
+.me img {
+    width: 300px;
+    padding: 30px 0px;
+}
+
+.me .row {
+    margin: 10px 0px;
+}
+
+.container {
+    width: 80%;
+}
+
+.text-left {
+    text-align: left;
+}
+
+#aboutme {
+    padding: 50px;
+}
+
+.Portfolio-title {
+    padding: 30px 0px;
+    background-color: rgba(105, 211, 186, 0.81);
+    margin: 0;
+    color: #694f4f;
+}
+
+.Portfolio-title h1 {
+    margin: 20px;
+}
+
+.Portfolio-title p {
+    color: #414141;
+    letter-spacing: 2px;
+}
+
+.Portfolio {
+    margin: 20px 0px;
+}
+
+.Portfolio .row {
+    margin: 30px 0px;
+}
+
+.Portfolio img {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.Portfolio h4 {
+    line-height: 50px;
+    color: #386763;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #7e7e7e;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+footer {
+    background-color: #171717;
+    padding: 20px 0px;
+    text-align: center;
+    color: #ebebeb;
+}
+
+footer a {
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    margin: 10px;
+    line-height: 50px;
+}
+
+footer a:hover {
+    font-size: 29px;
+    color: rgb(255, 163, 17);
+}
+
+#goToTop a {
+    line-height: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(67, 67, 67, 0.75);
+    border: 1px solid #dddddd;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}

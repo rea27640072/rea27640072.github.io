@@ -1,0 +1,128 @@
+.iphone-pic {
+    background-image: url(iphone-6-silver-gallery-img-1.jpg);
+    height: 100vh;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+}
+
+.screen {
+    height: 408px;
+    width: 230px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 63px;
+    left: 12px;
+}
+
+.home {
+    background-color: #f4f4f4;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 477px;
+    left: 107px;
+    border: 3px solid #afafaf;
+}
+
+.top-circle {
+    height: 8px;
+    width: 8px;
+    background-color: #000000;
+    position: absolute;
+    top: 12px;
+    left: 125px;
+    border-radius: 50%;
+}
+
+.left-circle {
+    height: 10px;
+    width: 10px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: absolute;
+    top: 26px;
+    left: 82px;
+}
+
+.line {
+    height: 5px;
+    width: 43px;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    top: 30px;
+    left: 108px;
+}
+
+.white {
+    background-color: rgb(245, 245, 245);
+    width: 259px;
+    height: 534px;
+    border-radius: 39px;
+    position: absolute;
+    top: 56px;
+    left: 369px;
+    border: 2px solid #afafaf;
+}
+
+.sound-up {
+    width: 4px;
+    height: 10px;
+    background-color: #afafaf;
+    border-radius: 10px;
+    position: absolute;
+    top: 108px;
+    left: 257px;
+}
+
+.sound-down {
+    width: 4px;
+    height: 10px;
+    background-color: #afafaf;
+    border-radius: 10px;
+    position: absolute;
+    top: 144px;
+    left: 257px;
+}
+
+.left-line1 {
+    width: 3px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #afafaf;
+    position: absolute;
+    top: 65px;
+    left: -3px;
+}
+
+.left-line2 {
+    width: 3px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #afafaf;
+    position: absolute;
+    top: 110px;
+    left: -3px;
+}
+
+.left-line3 {
+    width: 3px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #afafaf;
+    position: absolute;
+    top: 160px;
+    left: -3px;
+}
+
+.screen p {
+    color: white;
+    padding: 20px;
+    padding-top: 150px;
+    line-height: 25px;
+}
+
+.screen {
+    text-align: center;
+}
